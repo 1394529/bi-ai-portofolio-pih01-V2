@@ -1,0 +1,423 @@
+{
+  "hero": {
+    "fr": {
+      "eyebrow": "DATA • BUSINESS INTELLIGENCE • IA",
+      "title": "Pierre Hubertin ANDRIANIRINA",
+      "subtitle": "Analyste fonctionnel TI | Data & BI | Intelligence artificielle",
+      "tagline": "Plus de 20 ans d’expérience en TI, analyse fonctionnelle, données, visualisation et intelligence artificielle.",
+      "cta_primary": "Voir mes projets",
+      "cta_secondary": "Télécharger mon CV",
+      "cv_label": "CV PDF"
+    },
+    "en": {
+      "eyebrow": "DATA • BUSINESS INTELLIGENCE • AI",
+      "title": "Pierre Hubertin ANDRIANIRINA",
+      "subtitle": "IT Functional Analyst | Data & BI | Artificial Intelligence",
+      "tagline": "20+ years of experience in IT, functional analysis, data, visualization and artificial intelligence.",
+      "cta_primary": "View my projects",
+      "cta_secondary": "Download my CV",
+      "cv_label": "CV PDF"
+    }
+  },
+  "about": {
+    "fr": {
+      "heading": "À propos",
+      "lead": "Un parcours TI construit entre analyse, systèmes, qualité, données et intelligence artificielle.",
+      "description": "Passionné par la data et l'intelligence artificielle, je conçois des solutions BI & AI sur mesure pour transformer les données en informations utiles à la décision. Mon parcours combine analyse fonctionnelle, analyse d'affaires, assurance qualité, architecture, développement et maintenant une spécialisation croissante en BI, analytique et IA.",
+      "value": "Mon objectif : relier les besoins d’affaires, les données et la technologie pour produire des solutions concrètes, compréhensibles et utiles.",
+      "location": "Québec, Canada",
+      "languages": "Français / English",
+      "experience": "2002–2026",
+      "degree": "M.Sc.A. — Génie électrique"
+    },
+    "en": {
+      "heading": "About",
+      "lead": "An IT career built across analysis, systems, quality, data and artificial intelligence.",
+      "description": "Passionate about data and artificial intelligence, I design custom BI & AI solutions that turn data into useful decision-making information. My background combines functional analysis, business analysis, quality assurance, architecture, development, and an expanding specialization in BI, analytics and AI.",
+      "value": "My goal: connect business needs, data and technology to deliver practical, understandable and useful solutions.",
+      "location": "Québec, Canada",
+      "languages": "Français / English",
+      "experience": "2002–2026",
+      "degree": "M.Sc.A. — Electrical Engineering"
+    }
+  },
+  "expertise": {
+    "fr": {
+      "heading": "Expertises"
+    },
+    "en": {
+      "heading": "Expertise"
+    },
+    "items": [
+      {
+        "icon": "01",
+        "title_fr": "Analyse fonctionnelle & affaires",
+        "title_en": "Functional & Business Analysis",
+        "desc_fr": "Besoins, processus, dossiers fonctionnels, BPMN/UML, essais et coordination avec les parties prenantes.",
+        "desc_en": "Requirements, processes, functional specifications, BPMN/UML, testing and stakeholder coordination.",
+        "tags": [
+          "BPMN 2.0",
+          "UML 2.0",
+          "Agile / Scrum",
+          "Macroscope",
+          "TOGAF"
+        ]
+      },
+      {
+        "icon": "02",
+        "title_fr": "Business Intelligence & Data",
+        "title_en": "Business Intelligence & Data",
+        "desc_fr": "Modélisation, entrepôts de données, ETL/ELT, visualisation et pilotage par les indicateurs.",
+        "desc_en": "Data modeling, data warehouses, ETL/ELT, visualization and KPI-driven decision support.",
+        "tags": [
+          "Power BI",
+          "SQL",
+          "Snowflake",
+          "SSIS / SSAS",
+          "DAX"
+        ]
+      },
+      {
+        "icon": "03",
+        "title_fr": "Intelligence artificielle",
+        "title_en": "Artificial Intelligence",
+        "desc_fr": "Python, machine learning, deep learning, MLOps et exploration des LLM dans des contextes appliqués.",
+        "desc_en": "Python, machine learning, deep learning, MLOps and exploration of LLMs in applied contexts.",
+        "tags": [
+          "Python",
+          "ML / DL",
+          "MLOps",
+          "LLM",
+          "scikit-learn"
+        ]
+      },
+      {
+        "icon": "04",
+        "title_fr": "Qualité, sécurité & TI",
+        "title_en": "Quality, Security & IT",
+        "desc_fr": "Assurance qualité, stratégie de tests, gestion des anomalies, sécurité de l’information et architecture TI.",
+        "desc_en": "Quality assurance, test strategy, defect management, information security and IT architecture.",
+        "tags": [
+          "ISTQB",
+          "Jira / Xray",
+          "Azure DevOps",
+          "ISO 27001",
+          "Six Sigma"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "fr": {
+      "heading": "Projets Data, BI & IA",
+      "intro": "Des projets académiques récents qui montrent la transition de mon expertise TI vers la Data, la BI et l’IA."
+    },
+    "en": {
+      "heading": "Data, BI & AI Projects",
+      "intro": "Recent academic projects demonstrating the evolution of my IT background toward Data, BI and AI."
+    },
+    "items": [
+      {
+        "number": "01",
+        "title_fr": "Data Warehouse — analyse des ventes retail",
+        "title_en": "Data Warehouse — Retail Sales Analytics",
+        "context_fr": "CEGEP de Bois-de-Boulogne • Intelligence d’affaires et analytiques",
+        "context_en": "CEGEP de Bois-de-Boulogne • Business Intelligence & Analytics",
+        "desc_fr": "Conception d’un modèle en étoile destiné à l’analyse des ventes retail, avec préparation des données et structuration pour l’analytique.",
+        "desc_en": "Design of a star schema for retail sales analysis, including data preparation and an analytics-ready structure.",
+        "tech": [
+          "Data Warehouse",
+          "Kimball",
+          "SQL",
+          "Power BI"
+        ]
+      },
+      {
+        "number": "02",
+        "title_fr": "Pipeline ETL — données e-commerce multicanaux",
+        "title_en": "ETL Pipeline — Multi-channel E-commerce Data",
+        "context_fr": "CEGEP de Bois-de-Boulogne • Intelligence d’affaires et analytiques",
+        "context_en": "CEGEP de Bois-de-Boulogne • Business Intelligence & Analytics",
+        "desc_fr": "Pipeline ETL batch pour consolider des données provenant de plusieurs canaux e-commerce et les rendre exploitables pour l’analyse.",
+        "desc_en": "Batch ETL pipeline to consolidate data from multiple e-commerce channels and make it analytics-ready.",
+        "tech": [
+          "ETL",
+          "ELT",
+          "SQL",
+          "Data Integration"
+        ]
+      },
+      {
+        "number": "03",
+        "title_fr": "Architecture Data Lake & Snowflake",
+        "title_en": "Data Lake & Snowflake Architecture",
+        "context_fr": "CEGEP de Bois-de-Boulogne • Intelligence d’affaires et analytiques",
+        "context_en": "CEGEP de Bois-de-Boulogne • Business Intelligence & Analytics",
+        "desc_fr": "Exploration d’une architecture ETL hybride cloud avec Data Lake et Snowflake pour soutenir une analytique avancée.",
+        "desc_en": "Exploration of a hybrid cloud ETL architecture with Data Lake and Snowflake for advanced analytics.",
+        "tech": [
+          "Snowflake",
+          "Data Lake",
+          "ETL",
+          "Cloud"
+        ]
+      },
+      {
+        "number": "04",
+        "title_fr": "Prédiction des prix des maisons",
+        "title_en": "House Price Prediction",
+        "context_fr": "CEGEP de Sainte-Foy • Intelligence artificielle",
+        "context_en": "CEGEP de Sainte-Foy • Artificial Intelligence",
+        "desc_fr": "Projet de machine learning visant à anticiper les prix des maisons dans une région des États-Unis à partir des données recueillies.",
+        "desc_en": "Machine learning project aimed at predicting house prices in a U.S. region from collected data.",
+        "tech": [
+          "Python",
+          "Machine Learning",
+          "Data Analysis"
+        ]
+      },
+      {
+        "number": "05",
+        "title_fr": "Comparer les champions — algorithmes ML",
+        "title_en": "Comparing the Champions — ML Algorithms",
+        "context_fr": "CEGEP de Sainte-Foy • Intelligence artificielle",
+        "context_en": "CEGEP de Sainte-Foy • Artificial Intelligence",
+        "desc_fr": "Comparaison de plusieurs algorithmes afin d’évaluer leurs performances sur un problème d’apprentissage supervisé.",
+        "desc_en": "Comparison of several algorithms to evaluate their performance on a supervised learning problem.",
+        "tech": [
+          "Python",
+          "scikit-learn",
+          "Model Evaluation"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "fr": {
+      "heading": "Expérience professionnelle",
+      "intro": "Un parcours de mandats en TI, analyse fonctionnelle, QA, architecture, sécurité, BI et développement.",
+      "more": "Voir le CV complet"
+    },
+    "en": {
+      "heading": "Professional Experience",
+      "intro": "A career spanning IT, functional analysis, QA, architecture, security, BI and development assignments.",
+      "more": "View full CV"
+    },
+    "items": [
+      {
+        "period": "2024–présent",
+        "role_fr": "Analyste fonctionnel QA — application mobile",
+        "role_en": "Functional QA Analyst — mobile application",
+        "org": "Sous-traitant de VTC (Uber Inc.)",
+        "desc_fr": "Plans et scénarios de tests, exécution des cycles, gestion des anomalies, validation de la stabilité et rapports consolidés.",
+        "desc_en": "Test plans and scenarios, test execution, defect management, stability validation and consolidated reporting."
+      },
+      {
+        "period": "2024",
+        "role_fr": "Architecte d’exploitation bureautique",
+        "role_en": "Workplace Operations Architect",
+        "org": "Ministère de la Cybersécurité et du Numérique | ITI",
+        "desc_fr": "Optimisation des méthodes et pratiques de conception et de gestion des services bureautiques.",
+        "desc_en": "Optimization of methods and practices for the design and management of workplace services."
+      },
+      {
+        "period": "2022–2023",
+        "role_fr": "Analyste fonctionnel | Analyste assurance qualité — Escouade BI",
+        "role_en": "Functional Analyst | QA Analyst — BI Squad",
+        "org": "BENEVA | CGI",
+        "desc_fr": "Qualité des livrables BI, scénarios de tests, matrices de validation, anomalies et risques; environnement Snowflake, Cognos, GuideWire et SQL.",
+        "desc_en": "BI deliverable quality, test scenarios, validation matrices, defects and risks; Snowflake, Cognos, GuideWire and SQL environment."
+      },
+      {
+        "period": "2021–2022",
+        "role_fr": "Analyste fonctionnel | Analyste d’affaires",
+        "role_en": "Functional Analyst | Business Analyst",
+        "org": "Société québécoise des infrastructures | CGI",
+        "desc_fr": "Analyses préliminaires, audits, migration cloud, besoins utilisateurs, maquettes et tests fonctionnels.",
+        "desc_en": "Preliminary analysis, system audits, cloud migration, user needs, mockups and functional testing."
+      },
+      {
+        "period": "2018–2020",
+        "role_fr": "Analyste fonctionnel / sécurité de l’information",
+        "role_en": "Functional Analyst / Information Security",
+        "org": "Retraite Québec • Ministère de l’Éducation du Québec",
+        "desc_fr": "Modernisation de systèmes, architecture de sécurité, analyse d’impact, essais et accompagnement des équipes.",
+        "desc_en": "System modernization, security architecture, impact analysis, testing and team support."
+      },
+      {
+        "period": "2002–2017",
+        "role_fr": "Analyse, développement, architecture & R&D",
+        "role_en": "Analysis, Development, Architecture & R&D",
+        "org": "Organisations publiques, privées et UQTR / Hydro-Québec",
+        "desc_fr": "Mandats en analyse fonctionnelle, développement, systèmes d’information, e-commerce, traitement numérique du signal et R&D.",
+        "desc_en": "Assignments in functional analysis, development, information systems, e-commerce, digital signal processing and R&D."
+      }
+    ]
+  },
+  "education": {
+    "fr": {
+      "heading": "Formation & certifications",
+      "intro": "Une formation continue qui accompagne mon évolution vers la BI, l’analytique et l’IA."
+    },
+    "en": {
+      "heading": "Education & Certifications",
+      "intro": "Continuous learning supporting my evolution toward BI, analytics and AI."
+    },
+    "items": [
+      {
+        "year": "En cours",
+        "title_fr": "Spécialiste en intelligence d’affaires et analytiques",
+        "title_en": "Business Intelligence & Analytics Specialist",
+        "org": "CEGEP de Bois-de-Boulogne, Montréal"
+      },
+      {
+        "year": "En cours",
+        "title_fr": "Spécialisation technique en intelligence artificielle",
+        "title_en": "Technical Specialization in Artificial Intelligence",
+        "org": "FC-CEGEP de Sainte-Foy"
+      },
+      {
+        "year": "En cours",
+        "title_fr": "Gestion des organisations et intelligence artificielle — microprogramme de 2e cycle",
+        "title_en": "Organizations Management & Artificial Intelligence — Graduate Microprogram",
+        "org": "Université Laval"
+      },
+      {
+        "year": "2025",
+        "title_fr": "Certification en intelligence artificielle",
+        "title_en": "Artificial Intelligence Certificate",
+        "org": "FC-CEGEP de Trois-Rivières"
+      },
+      {
+        "year": "2019",
+        "title_fr": "Certification universitaire en analyse d’affaires et conseil stratégique",
+        "title_en": "University Certificate in Business Analysis & Strategic Consulting",
+        "org": "Université Laval"
+      },
+      {
+        "year": "2007",
+        "title_fr": "Maîtrise en génie électrique",
+        "title_en": "M.Sc.A. in Electrical Engineering",
+        "org": "Université du Québec à Trois-Rivières"
+      }
+    ]
+  },
+  "contact": {
+    "fr": {
+      "heading": "Parlons de votre projet",
+      "subtitle": "Ou d’une opportunité en analyse fonctionnelle, BI, Data ou IA.",
+      "name_label": "Nom",
+      "email_label": "Courriel",
+      "message_label": "Message",
+      "submit_label": "Envoyer le message",
+      "email": "ai.novacrew@gmail.com",
+      "linkedin": "https://linkedin.com/in/phubertin",
+      "github": "https://github.com/1394529/bi-ai-portofolio-pih01"
+    },
+    "en": {
+      "heading": "Let's talk",
+      "subtitle": "About your project or an opportunity in functional analysis, BI, Data or AI.",
+      "name_label": "Name",
+      "email_label": "Email",
+      "message_label": "Message",
+      "submit_label": "Send message",
+      "email": "ai.novacrew@gmail.com",
+      "linkedin": "https://linkedin.com/in/phubertin",
+      "github": "https://github.com/1394529/bi-ai-portofolio-pih01"
+    }
+  },
+  "nav": {
+    "fr": {
+      "about": "À propos",
+      "expertise": "Expertises",
+      "projects": "Projets",
+      "experience": "Parcours",
+      "education": "Formation",
+      "contact": "Contact"
+    },
+    "en": {
+      "about": "About",
+      "expertise": "Expertise",
+      "projects": "Projects",
+      "experience": "Experience",
+      "education": "Education",
+      "contact": "Contact"
+    }
+  },
+  "meta": {
+    "fr": {
+      "title": "Pierre Hubertin Andrianirina | Data • BI • IA",
+      "description": "Portfolio professionnel de Pierre Hubertin Andrianirina — Data, Business Intelligence, IA et analyse fonctionnelle. Plus de 20 ans d’expérience en TI."
+    },
+    "en": {
+      "title": "Pierre Hubertin Andrianirina | Data • BI • AI",
+      "description": "Professional portfolio of Pierre Hubertin Andrianirina — Data, Business Intelligence, AI and functional analysis. 20+ years of IT experience."
+    }
+  },
+  "toolbox": {
+    "fr": {
+      "heading": "Environnement technique",
+      "intro": "Une boîte à outils construite au fil des mandats, projets et formations."
+    },
+    "en": {
+      "heading": "Technical Toolbox",
+      "intro": "A technology toolbox built across assignments, projects and continuous learning."
+    },
+    "groups": [
+      {
+        "name_fr": "BI & Data",
+        "name_en": "BI & Data",
+        "items": [
+          "Power BI",
+          "SQL",
+          "DAX",
+          "Snowflake",
+          "SSIS",
+          "SSAS",
+          "ETL / ELT",
+          "Data Warehouse"
+        ]
+      },
+      {
+        "name_fr": "IA & analytique",
+        "name_en": "AI & Analytics",
+        "items": [
+          "Python",
+          "Machine Learning",
+          "Deep Learning",
+          "MLOps",
+          "LLM",
+          "RStudio",
+          "SPSS",
+          "MATLAB / Simulink"
+        ]
+      },
+      {
+        "name_fr": "Méthodes",
+        "name_en": "Methods",
+        "items": [
+          "Agile / Scrum / Kanban",
+          "BPMN 2.0",
+          "UML 2.0",
+          "Macroscope",
+          "Lean Six Sigma",
+          "TOGAF",
+          "ISTQB"
+        ]
+      },
+      {
+        "name_fr": "Écosystème TI",
+        "name_en": "IT Ecosystem",
+        "items": [
+          "Azure DevOps",
+          "Jira / Xray",
+          "Confluence",
+          "AWS",
+          "GCP",
+          "Microsoft 365",
+          "GuideWire"
+        ]
+      }
+    ]
+  }
+}

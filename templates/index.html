@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" id="meta-description" content="Portfolio professionnel de Pierre Hubertin Andrianirina — Data, Business Intelligence, IA et analyse fonctionnelle.">
+  <meta property="og:title" id="og-title" content="Pierre Hubertin Andrianirina | Data • BI • IA">
+  <meta property="og:description" id="og-description" content="Data, BI, IA et analyse fonctionnelle — plus de 20 ans d'expérience en TI.">
+  <meta property="og:type" content="website">
+  <title id="page-title">Pierre Hubertin Andrianirina | Data • BI • IA</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="nav" id="site-nav">
+  <div class="container nav__inner">
+    <a class="brand" href="#hero" aria-label="Pierre Hubertin Andrianirina — Accueil">
+      <span class="brand-mark">PH</span>
+      <span class="brand-text">PIERRE HUBERTIN <b>ANDRIANIRINA</b></span>
+    </a>
+
+    <nav class="nav__links" id="nav-links" aria-label="Navigation principale">
+      <a href="#about" data-nav="about">À propos</a>
+      <a href="#expertise" data-nav="expertise">Expertises</a>
+      <a href="#projects" data-nav="projects">Projets</a>
+      <a href="#experience" data-nav="experience">Parcours</a>
+      <a href="#education" data-nav="education">Formation</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <div class="lang-toggle" role="group" aria-label="Langue">
+        <button class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button>
+        <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="menu-btn" id="menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="hero">
+  <div class="hero-orb hero-orb--one"></div>
+  <div class="hero-orb hero-orb--two"></div>
+  <div class="hero-grid"></div>
+  <div class="container hero__inner">
+    <div class="hero__content reveal">
+      <div class="eyebrow"><span class="pulse-dot"></span><span id="hero-eyebrow">DATA • BUSINESS INTELLIGENCE • IA</span></div>
+      <h1 id="hero-title">Pierre Hubertin ANDRIANIRINA</h1>
+      <p class="hero__subtitle" id="hero-subtitle">Analyste fonctionnel TI | Data & BI | Intelligence artificielle</p>
+      <p class="hero__tagline" id="hero-tagline">Plus de 20 ans d’expérience en TI, analyse fonctionnelle, données, visualisation et intelligence artificielle.</p>
+
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn-primary" id="hero-primary">Voir mes projets</a>
+        <a href="https://raw.githubusercontent.com/1394529/bi-ai-portofolio-pih01/main/files/CV_AndrianirinaPH_20260901_Stand-AF-AA-QA-BI-AI_v3.0.pdf" class="btn btn-secondary" target="_blank" rel="noopener" id="hero-cv">Télécharger mon CV</a>
+      </div>
+
+      <div class="hero__facts">
+        <div><strong>20+</strong><span>ans d’expérience</span></div>
+        <div><strong>2002–2026</strong><span>parcours TI</span></div>
+        <div><strong>FR / EN</strong><span>bilingue</span></div>
+        <div><strong>QC</strong><span>Canada</span></div>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal reveal-delay">
+      <div class="visual-card">
+        <div class="visual-card__top">
+          <span class="mini-logo">PH</span>
+          <span>DATA / BI / AI</span>
+          <span class="status">OPEN TO OPPORTUNITIES</span>
+        </div>
+        <div class="visual-lines">
+          <div class="line line--wide"></div>
+          <div class="line line--medium"></div>
+          <div class="line line--short"></div>
+        </div>
+        <div class="visual-chart" aria-hidden="true">
+          <span style="height:34%"></span><span style="height:48%"></span><span style="height:42%"></span>
+          <span style="height:67%"></span><span style="height:59%"></span><span style="height:78%"></span>
+          <span style="height:72%"></span><span style="height:91%"></span>
+        </div>
+        <div class="visual-tags">
+          <span>Power BI</span><span>Python</span><span>SQL</span><span>Snowflake</span><span>ML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="proof-strip">
+  <div class="container proof-grid">
+    <div><span>01</span><strong>Analyse</strong><small>Besoins & processus</small></div>
+    <div><span>02</span><strong>Data</strong><small>Modélisation & pipelines</small></div>
+    <div><span>03</span><strong>BI</strong><small>Indicateurs & visualisation</small></div>
+    <div><span>04</span><strong>IA</strong><small>ML, DL & LLM</small></div>
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">01 / PROFILE</span>
+      <h2 id="about-heading">À propos</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p class="lead" id="about-lead"></p>
+        <p id="about-description"></p>
+        <blockquote id="about-value"></blockquote>
+      </div>
+      <div class="about-panel reveal reveal-delay">
+        <div class="profile-row"><span>Localisation</span><strong id="about-location"></strong></div>
+        <div class="profile-row"><span>Langues</span><strong id="about-languages"></strong></div>
+        <div class="profile-row"><span>Expérience</span><strong id="about-experience"></strong></div>
+        <div class="profile-row"><span>Formation clé</span><strong id="about-degree"></strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark" id="expertise">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">02 / EXPERTISE</span>
+      <h2 id="expertise-heading">Expertises</h2>
+    </div>
+    <div class="expertise-grid" id="expertise-grid"></div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">03 / PROJECTS</span>
+      <h2 id="projects-heading">Projets Data, BI & IA</h2>
+      <p id="projects-intro"></p>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </div>
+</section>
+
+<section class="section section-dark" id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">04 / CAREER</span>
+      <h2 id="experience-heading">Expérience professionnelle</h2>
+      <p id="experience-intro"></p>
+    </div>
+    <div class="timeline" id="experience-list"></div>
+    <div class="section-cta reveal">
+      <a class="text-link" href="https://raw.githubusercontent.com/1394529/bi-ai-portofolio-pih01/main/files/CV_AndrianirinaPH_20260901_Stand-AF-AA-QA-BI-AI_v3.0.pdf" target="_blank" rel="noopener" id="experience-cv-link">Voir le CV complet →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="toolbox">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">05 / TOOLBOX</span>
+      <h2 id="toolbox-heading">Environnement technique</h2>
+      <p id="toolbox-intro"></p>
+    </div>
+    <div class="toolbox-grid" id="toolbox-grid"></div>
+  </div>
+</section>
+
+<section class="section section-dark" id="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-kicker">06 / EDUCATION</span>
+      <h2 id="education-heading">Formation & certifications</h2>
+      <p id="education-intro"></p>
+    </div>
+    <div class="education-grid" id="education-grid"></div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact-card reveal">
+      <div class="contact-copy">
+        <span class="section-kicker">07 / CONTACT</span>
+        <h2 id="contact-heading">Parlons de votre projet</h2>
+        <p id="contact-subtitle"></p>
+        <div class="contact-links">
+          <a id="contact-email" href="mailto:ai.novacrew@gmail.com">ai.novacrew@gmail.com</a>
+          <a id="contact-linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a id="contact-github" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="f-name" id="contact-name-label">Nom</label>
+          <input type="text" id="f-name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-group">
+          <label for="f-email" id="contact-email-label">Courriel</label>
+          <input type="email" id="f-email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-group">
+          <label for="f-message" id="contact-message-label">Message</label>
+          <textarea id="f-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" id="contact-submit">Envoyer le message</button>
+        <p class="form-note" id="form-note">Votre message sera transmis par courriel.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <strong>Pierre Hubertin ANDRIANIRINA</strong>
+      <span>Data • BI • AI</span>
+    </div>
+    <p>© 2026 Pierre Hubertin ANDRIANIRINA — <a href="mailto:ai.novacrew@gmail.com">ai.novacrew@gmail.com</a></p>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
